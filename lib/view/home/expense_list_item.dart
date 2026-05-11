@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../utils/date_formatter.dart';
 import 'package:personal_expense_tracker/utils/colors.dart';
-import 'package:personal_expense_tracker/models/expense_model.dart';
+import 'package:personal_expense_tracker/data/models/expense_model.dart';
 
 class ExpenseItemWidget extends StatelessWidget {
   final ExpenseModel expense;

@@ -10,8 +10,8 @@ class AddExpense extends ExpenseEvent {
   AddExpense(this.expense);
 }
 
-class DeleteExpense extends ExpenseEvent {
-  final int index;
+class SearchExpense extends ExpenseEvent {
+  final String query;
 
-  DeleteExpense(this.index);
+  SearchExpense(this.query);
 }

@@ -2,7 +2,8 @@ import 'utils/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:personal_expense_tracker/view/home/home_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MainApp());
 }
 
